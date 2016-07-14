@@ -24,11 +24,54 @@
     text-shadow: 2px 2px black;
 	font-size: 150%;
     color: #003300;
-    background: rgba(51, 13, 0, .35);
+    background: rgba(51, 13, 0, .25);
     border-style: double;
     border-color: #003300;
     border-width: 10px;
 }
+
+div.menu {
+    padding: 50px 25px;
+}
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 307.5px;
+    background-color: rgba(51, 13, 0, .05);
+    border-radius: 10%;
+    border-width: 6px;
+    border-style: ridge;
+    border-color: green sienna sienna green ;
+}
+
+li {
+    float: left;
+    border-right: 1px double black;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    color: sienna;
+    background-color: #003300;
+}
+
+/*li a:active {
+    background-color: red;
+}*/
+
 
 /*media queries*/
 
